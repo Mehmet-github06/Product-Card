@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --ff:font-family: 'Poppins', sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: var(--ff);
+}
+.container{
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 40px;
+   /* border: 5px solid red; */
+
+}
+.card{
+   /* border: 3px solid blue; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 90%;
+   height: 500px;
+   box-shadow: -15px 0 35px rgba(0, 0, 0, 0.1), 0 -15px 35px rgba(0, 0, 0, 0.1), 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.img{
+    width: 50%;
+    height: 100%;
+}
+.img img{
+    width: 100%;
+    height: 500px;
+
+}
+.info{
+    /* border: 3px solid olive; */
+    width: 50%;
+    background-color: #fff;
+    padding: 35px 40px;
+    height: 500px;
+    box-shadow: 15px 0 35px rgba(0, 0, 0, 0.1), 0 -15px 35px rgba(0, 0, 0, 0.1), 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+.info1{
+    padding: 0 0 10px 0;
+    /* border: 1px solid red; */
+}
+.info11{
+    display: flex;
+    align-items: center;
+}
+.info1 h1{
+    margin-right: 10px;
+    font-size: 2rem;
+    color: #333;
+    line-height: 1;
+}
+.info1 span{
+    background-color: #2175f5;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 1px 10px;
+    border-radius: 5px;
+
+}
+.info1 h3{
+    font-weight: 500;
+    color: #444;
+    margin-top: 3px;
+    text-transform: capitalize;
+}
+.info2{
+    padding: 10px 0;
+    /* border: 1px solid blue; */
+}
+.info2 h3{
+    color: #3a3a3a;
+    font-weight: 600;
+    font-size: 1.2rem;
+
+}
+.info2 p{
+    color: #555;
+    font-size: 17px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.info3{
+    padding: 10px 0;
+    margin-bottom: 10px;
+    /* border: 1px solid red; */
+}
+.info3 h3{
+    color: #3a3a3a;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.GB{
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.GB span{
+    width: 80px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #eee;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.GB .tb{
+    background-color: #2175f5;
+    color: #fff;
+}
+
+.info4{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+.info4 a{
+    padding: 0.7rem 1rem;
+    background-color: #2175f5;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.tutar{
+   /* border: 1px solid red; */
+   color: #333;
+    display: flex;
+    align-items: flex-start;
+}
+.tutar i{
+    font-size: 1.4rem;
+    margin-right: 2px;
+}
+.tutar h1{
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 1;
+}
